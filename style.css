@@ -95,3 +95,37 @@ h3{
   text-align: center;
   padding: 10px 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    gap: 10vw;
+  }
+  .profile-img {
+    width: 70vw;
+    height: 50vh;
+  }
+  .stats{
+    flex-direction: column;
+  }
+  .stats div{
+    width: 70vw;
+  }
+  .contact-btn{
+    margin-top: 1vw;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .left {
+    text-align: center;
+    align-items: center;
+  }
+}
